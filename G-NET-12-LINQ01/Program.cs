@@ -121,14 +121,37 @@
 
             #region 9. Get all products from the "Beverages
 
-                //            var result9 = ProductList
-                //.Where(p => p.Category == "Beverages")
-                //.OrderByDescending(p => p.UnitsInStock);
+            //            var result9 = ProductList
+            //.Where(p => p.Category == "Beverages")
+            //.OrderByDescending(p => p.UnitsInStock);
 
-                //        foreach (var item in result9)
-                //        {
-                //            Console.WriteLine($"{item.ProductName} - {item.UnitsInStock}");
-                //        }
+            //        foreach (var item in result9)
+            //        {
+            //            Console.WriteLine($"{item.ProductName} - {item.UnitsInStock}");
+            //        }
+            #endregion
+
+            #region 10. Using QUERY SYNTAX with a compound from clause
+
+                //                List<Order> Orders = new List<Order>()
+                //{
+                //                new Order{ CustomerID="ALFKI", OrderDate=new DateTime(1998,1,1)},
+                //                new Order{ CustomerID="ANATR", OrderDate=new DateTime(1996,5,1)}
+                //};
+
+                //                                var result10 =
+                //                    from o in Orders
+                //                    where o.OrderDate.Year >= 1997
+                //                    select new
+                //                    {
+                //                    o.CustomerID,
+                //                    o.OrderDate
+                //                    };
+
+                //                                foreach (var item in result10)
+                //                                {
+                //                                    Console.WriteLine($"{item.CustomerID} - {item.OrderDate}");
+                //                                }
             #endregion
 
 
