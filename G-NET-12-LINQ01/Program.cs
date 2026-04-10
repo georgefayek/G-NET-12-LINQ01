@@ -19,7 +19,7 @@
 
 
             #region  1. Get all products from the "Seafood" category. Print each
-            product's name and price.
+                    product's name and price.
 
 
             //    var result1 = ProductList.Where(p => p.Category == "Seafood");
@@ -32,6 +32,18 @@
 
             #endregion
 
+            #region 2. Get a list of only the product names from ProductList. Print
+                    each name.
+
+
+            //    var result2 = ProductList.Select(p => p.ProductName);
+
+            //foreach (var name in result2)
+            //{
+            //    Console.WriteLine(name);
+            //}
+            #endregion
         }
+
     }
 }
