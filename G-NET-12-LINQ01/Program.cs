@@ -69,29 +69,45 @@
             #region 5. Get all products that are in stock (UnitsInStock > 0) and
                     belong to the "Condiments" category.
 
-                //            var result5 = ProductList
-                //.Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
+                 //            var result5 = ProductList
+                 //.Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
 
-                //        foreach (var item in result5)
-                //        {
-                //            Console.WriteLine(item.ProductName);
-                //        }
+                 //        foreach (var item in result5)
+                 //        {
+                 //            Console.WriteLine(item.ProductName);
+                 //        }
             #endregion
 
             #region 6. Create a new anonymous type with three properties
 
-            //    var result6 = ProductList.Select(p => new
-            //    {
-            //        Name = p.ProductName,
-            //        Price = p.UnitPrice,
-            //        StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
-            //    });
+                 //    var result6 = ProductList.Select(p => new
+                 //    {
+                 //        Name = p.ProductName,
+                 //        Price = p.UnitPrice,
+                 //        StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
+                 //    });
 
-            //foreach (var item in result6)
+                 //foreach (var item in result6)
+                 //{
+                 //    Console.WriteLine($"{item.Name} - {item.Price} - {item.StockStatus}");
+                 //}
+            #endregion
+               
+            #region 7. Print each product's name along with its position (1-based)
+
+            //     var result7 = ProductList.Select((p, index) => new
+            //     {
+            //         Index = index + 1,
+            //         Name = p.ProductName
+            //     });
+
+            //foreach (var item in result7)
             //{
-            //    Console.WriteLine($"{item.Name} - {item.Price} - {item.StockStatus}");
+            //    Console.WriteLine($"{item.Index}. {item.Name}");
             //}
             #endregion
+
+
         }
 
     }
