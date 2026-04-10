@@ -109,13 +109,25 @@
 
             #region 8. Sort ProductList by Category ascending
 
-                //            var result8 = ProductList
-                //.OrderBy(p => p.Category)
-                //.ThenByDescending(p => p.UnitPrice);
+            //            var result8 = ProductList
+            //.OrderBy(p => p.Category)
+            //.ThenByDescending(p => p.UnitPrice);
 
-                //        foreach (var item in result8)
+            //        foreach (var item in result8)
+            //        {
+            //            Console.WriteLine($"{item.Category} - {item.ProductName} - {item.UnitPrice}");
+            //        }
+            #endregion
+
+            #region 9. Get all products from the "Beverages
+
+                //            var result9 = ProductList
+                //.Where(p => p.Category == "Beverages")
+                //.OrderByDescending(p => p.UnitsInStock);
+
+                //        foreach (var item in result9)
                 //        {
-                //            Console.WriteLine($"{item.Category} - {item.ProductName} - {item.UnitPrice}");
+                //            Console.WriteLine($"{item.ProductName} - {item.UnitsInStock}");
                 //        }
             #endregion
 
