@@ -77,6 +77,21 @@
                 //            Console.WriteLine(item.ProductName);
                 //        }
             #endregion
+
+            #region 6. Create a new anonymous type with three properties
+
+            //    var result6 = ProductList.Select(p => new
+            //    {
+            //        Name = p.ProductName,
+            //        Price = p.UnitPrice,
+            //        StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
+            //    });
+
+            //foreach (var item in result6)
+            //{
+            //    Console.WriteLine($"{item.Name} - {item.Price} - {item.StockStatus}");
+            //}
+            #endregion
         }
 
     }
