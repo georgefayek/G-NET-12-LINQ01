@@ -43,6 +43,17 @@
             //    Console.WriteLine(name);
             //}
             #endregion
+
+            #region 3. Sort all products by UnitPrice (ascending). Print each
+                        product's name and price
+
+            //    var result3 = ProductList.OrderBy(p => p.UnitPrice);
+
+            //foreach (var item in result3)
+            //{
+            //    Console.WriteLine($"{item.ProductName} - {item.UnitPrice}");
+            //}
+            #endregion
         }
 
     }
