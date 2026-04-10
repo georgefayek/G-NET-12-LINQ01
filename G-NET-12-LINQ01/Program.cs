@@ -168,6 +168,33 @@
             //}
             #endregion
 
+            #region 12. Sort first by-word length and then  
+            //    string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+            //var result12 = Arr
+            //    .OrderBy(w => w.Length)
+            //    .ThenBy(w => w, StringComparer.OrdinalIgnoreCase);
+
+            //foreach (var item in result12)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
+            #region 13Create a list of all digits in the array 
+
+                //    string[] digits = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+
+                //var result13 = digits
+                //    .Where(d => d.Length > 1 && d[1] == 'i')
+                //    .Reverse();
+
+                //foreach (var item in result13)
+                //{
+                //    Console.WriteLine(item);
+                //}
+            #endregion
 
         }
 
