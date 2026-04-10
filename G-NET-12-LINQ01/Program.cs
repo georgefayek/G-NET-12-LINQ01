@@ -133,25 +133,39 @@
 
             #region 10. Using QUERY SYNTAX with a compound from clause
 
-                //                List<Order> Orders = new List<Order>()
-                //{
-                //                new Order{ CustomerID="ALFKI", OrderDate=new DateTime(1998,1,1)},
-                //                new Order{ CustomerID="ANATR", OrderDate=new DateTime(1996,5,1)}
-                //};
+            //                List<Order> Orders = new List<Order>()
+            //{
+            //                new Order{ CustomerID="ALFKI", OrderDate=new DateTime(1998,1,1)},
+            //                new Order{ CustomerID="ANATR", OrderDate=new DateTime(1996,5,1)}
+            //};
 
-                //                                var result10 =
-                //                    from o in Orders
-                //                    where o.OrderDate.Year >= 1997
-                //                    select new
-                //                    {
-                //                    o.CustomerID,
-                //                    o.OrderDate
-                //                    };
+            //                                var result10 =
+            //                    from o in Orders
+            //                    where o.OrderDate.Year >= 1997
+            //                    select new
+            //                    {
+            //                    o.CustomerID,
+            //                    o.OrderDate
+            //                    };
 
-                //                                foreach (var item in result10)
-                //                                {
-                //                                    Console.WriteLine($"{item.CustomerID} - {item.OrderDate}");
-                //                                }
+            //                                foreach (var item in result10)
+            //                                {
+            //                                    Console.WriteLine($"{item.CustomerID} - {item.OrderDate}");
+            //                                }
+            #endregion
+
+            #region 11. Show position number alongside ProductName
+
+            //    var result11 = ProductList.Select((p, i) => new
+            //    {
+            //        Position = i + 1,
+            //        Name = p.ProductName
+            //    });
+
+            //foreach (var item in result11)
+            //{
+            //    Console.WriteLine($"{item.Position} - {item.Name}");
+            //}
             #endregion
 
 
