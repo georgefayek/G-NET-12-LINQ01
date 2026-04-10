@@ -184,16 +184,16 @@
 
             #region 13Create a list of all digits in the array 
 
-                //    string[] digits = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+            //    string[] digits = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
-                //var result13 = digits
-                //    .Where(d => d.Length > 1 && d[1] == 'i')
-                //    .Reverse();
+            //var result13 = digits
+            //    .Where(d => d.Length > 1 && d[1] == 'i')
+            //    .Reverse();
 
-                //foreach (var item in result13)
-                //{
-                //    Console.WriteLine(item);
-                //}
+            //foreach (var item in result13)
+            //{
+            //    Console.WriteLine(item);
+            //}
             #endregion
 
         }
